@@ -1,0 +1,48 @@
+.matchesTeam_container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 15%;
+}
+
+.matchesTeam_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.calendar_container_1 {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 70px;
+}
+
+.calendar_container_2 {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 350px;
+}
+
+[type="date"] {
+  background: #fff
+    url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)
+    97% 50% no-repeat;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+label {
+  display: block;
+}
+.calendar {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 190px;
+}
